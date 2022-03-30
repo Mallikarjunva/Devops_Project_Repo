@@ -1,154 +1,0 @@
-From keshav murthy to Everyone 08:49 AM
-#!/bin/bash
-
-test_string="one two three four five six seven eight nine ten"
-
-for item in $test_string
-do 
-	echo "$item"
-done
-From Rakshith to Everyone 08:59 AM
-amat share history in chats
-From Amar Ganji to Everyone 09:01 AM
-1  mkdir scripts
-    2  ls
-    3  cd scripts
-    4  ls
-    5  program1.sh
-    6  touch prog1.sh
-    7  ls
-    8  vi prog1.sh
-    9  ./prog1.sh
-   10  ls -l
-   11  chmod 755 prog1.sh
-   12  ls -l
-   13  ./prog1.sh
-   14  vi prog2.sh
-   15  chmod 755 prog2.sh
-   16  ls -l
-   17  ./prog2.sh
-   18  echo $name
-   19  vi prog2.sh
-   20  sh prog2.sh
-   21  vi prog3.sh
-   22  vi prog4.sh
-   23  chmod 755 prog4.sh
-   24  ./prog4.sh
-   25  vi prog5.sh
-   26  chmod 755 prog4.sh
-   27  ./prog5.sh
-   28  chmod 755 prog5.sh
-   29  ./prog5.sh 5 6
-   30  ./prog5.sh 6 5
-   31  vi prog6.sh
-   32  chmod 755 prog6.sh
-   33  ./prog6.sh 5 6
-   34  ./prog6.sh 6 5
-   35  ./prog6.sh 5 6 7 8
-   36  ./prog6.sh 8 7 6 5
-   37  vi prog7.sh
-   38  chmod 755 prog7.sh
-   39  ./prog7.sh
-   40  ./prog7.sh 6 7
-   41  vi prog7.sh
-   42  ./prog7.sh 6 7
-   43  ./prog7.sh 6
-   44  ./prog7.sh 7 6
-   45  vi prog8.sh
-   46  chmod 755 prog8.sh
-   47  vi prog9.sh
-   48  chmod 755 prog9.sh
-   49  ./prog9.sh
-   50  vi prog9.sh
-   51  ./prog9.sh
-   52  fru
-From Rakshith to Everyone 09:01 AM
-thanks bro
-From Amar Ganji to Everyone 09:01 AM
-52  fruit=apple
-   53  echo $fruit
-   54  fruit=orange
-   55  echo $fruit
-   56  'Fruit=orange apple plum'
-   57  Fruit="orange apple plum"
-   58  echo $Fruit
-   59  echo {Fruit[2]}
-   60  echo {Fruit [2]}
-   61  echo ${Fruit[2]}
-   62*
-   63  $echo ${Fruit[2]}
-   64  FRUIT="orange apple plum"
-   65  $echo ${FRUIT[2]}
-   66  echo ${FRUIT[2]}
-   67  FRUIT=(orange apple plum)
-   68  echo ${FRUIT[2]}
-   69  echo ${FRUIT[0]}
-   70  vi array.sh
-   71  chmod 755 array.sh
-   72  ./array.sh
-   73  vi array.sh
-   74  ./array.sh
-   75  vi forloop.sh
-   76  chmod 755 forloop.sh
-   77  ./forloop.sh
-   78  vi forloop.sh
-   79  ./forloop.sh
-   80  ./forloop.sh > for.report
-   81  ls
-   82  ls -l
-   83  cat for.report
-   84  vi forloop.sh
-   85  ./forloop.sh
-   86  cat for.report
-   87  ./forloop.sh > for.report
-   88  cat for.report
-   89  ./forloop.sh >> for.report
-   90  cat for.report
-   91  ./forloop.sh >>> for.report
-   92  ./forloop.sh >> for.report
-   93  cat for.report
-   94  history
-
-------------------------------------
-16/2/22
-
-From keshav murthy to Everyone 06:47 AM
-#!/bin/bash
-
-FILE_NAME=/root/scripts/test.txt
-DIR_NAME=/root/abc
-
-if [ -f $FILE_NAME ]; then
-        echo "Given file exists"
-else
-        echo "Given file doesnot exists"
-fi
-
-if [ -d $DIR_NAME ]; then
-        echo "Given directory exists"
-else
-        echo "Given directory doesnot exists"
-fi
-----------------------------
-example2 
-#typically the first line of the bash scripts
-#!/bin/bash 
-#get the current date
-BACKUPTIME=`date +%b-%d-%y` 
-#create a backup file using the current date in it's name
-DESTINATION=/home/usr/path/backup-$BACKUPTIME.tar.gz 
-#the folder that contains the files that we want to backup
-SOURCEFOLDER=/home/usr/path/data_folder 
-#create the backup
-tar -cpzf $DESTINATION $SOURCEFOLDER 
-
-----------------------------------
- 
-
-  2  vi prog1.sh    3  ls    4  ls -l    5  chmod 755 prog1.sh    6  ./prog1.sh    7  touch test.txt    8  rm test.txt    9  vi prog1.sh   10  cd scripts   11  touch test.txt   12  ./prog1.sh   13  mkdir abc   14  cd ..   15  ls   16  mv prog1.sh /root/scripts   17  ls   18  cd scipts   19  ls   20  cd scripts   21  ls -l   22  ./prog1.sh   23  vi prog1.sh   24  ./prog1.sh   25  vi prog2.sh   26  chmod 755 prog2.sh   27  ./prog2.sh   28  ./prog2.sh > for.report   29  cat prog2.sh   30  cat for.report   31  vi prog2.sh   32  ./prog2.sh   33  cat for.report   34  ./prog2.sh > for.report   35  ./prog2.sh > for.report 2>error.log   36  ls   37  cat for.report   38  cat error.log   39  ./prog2.sh > prog.log 2>&1   40  cat prog.log   41  crontab -l   42  vi prog1.sh   43  pwd   44  crontab -e   45  ls   46  ls -l   47  crontab -e   48  ls -l   49  crontab -e   50  pwd   51  ls -l   52  crontab -e   53  ls -l   54  ./prog2
-From Amar Ganji to Everyone 09:18 AM
-   98  ls   99  crontab -e  100  ls -l  101  cat error3.log  102  vi prog2.sh  103  ls -l  104  rm error3.log  105  ls -l  106  cat error3.log  107  ls -l  108  crontab -e  109  rm error3.log  110  ls -l  111  crontab -e  112  vi backup.sh  113  pwd  11
-scripts]#
-
-
-
