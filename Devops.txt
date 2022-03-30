@@ -1,37 +1,0 @@
-From Pradeep to Everyone 07:18 AM
-record permission
-18/02/2022
-
-From keshav murthy to Everyone 07:20 AM
-#!/bin/bashA=$1B=$2if [ $A -lt $B ]; then	echo "Second argument is greater than First"else	echo "First argument is greater than Second"fi
-
-#!/bin/bashecho "No.of arguments $#"A=$1B=$2if [ $A -lt $B ]; then	echo "Second argument is greater than First"else	echo "First argument is greater than Second"fi
-
-
-#!/bin/bashecho "No.of arguments $#"if [ $# -lt 2 ]; then	echo "This script requires atleast two arguments"	exitfiA=$1B=$2if [ $A -lt $B ]; then	echo "Second argument is greater than First"else	echo "First argument is greater than Second"fi
-
-
-#!/bin/bashecho "No.of arguments $#"if [ $# -lt 2 ]; then	echo "This script requires atleast two arguments"	exit -1fiA=$1B=$2if [ $A -lt $B ]; then	echo "Second argument is greater than First"else	echo "First argument is greater than Second"fi
-
-
-#!/bin/bash./prog6.sh 3 9RET_VAL=$?if [ $RET_VAL -eq 0 ]; then	echo "The command executed Successfully"else	echo "There is some issue with the command"fi
-
-
-#!/bin/bashtest_string="one two three four five six seven eight nine ten"for item in $test_stringdo 	echo "$item"done
-
-
-1  mkdir scripts    2  ls    3  cd scripts    4  ls    5  program1.sh    6  touch prog1.sh    7  ls    8  vi prog1.sh    9  ./prog1.sh   10  ls -l   11  chmod 755 prog1.sh   12  ls -l   13  ./prog1.sh   14  vi prog2.sh   15  chmod 755 prog2.sh   16  ls -l   17  ./prog2.sh   18  echo $name   19  vi prog2.sh   20  sh prog2.sh
-From Rakshith to Everyone 09:01 AM
-thanks bro
-From Amar Ganji to Everyone 09:01 AM
-52  fruit=apple   53  echo $fruit   54  fruit=orange   55  echo $fruit   56  'Fruit=orange apple plum'   57  Fruit="orange apple plum"   58  echo $Fruit   59  echo {Fruit[2]}   60  echo {Fruit [2]}   61  echo ${Fruit[2]}   62*   63  $echo ${Fruit[2]}   64  FRUIT="orange apple plum"   65  $echo ${FRUIT[2]}   66  echo ${FRUIT[2]}   67  FRUIT=(orange apple plum)   68  echo ${FRUIT[2]}   69  echo ${FRUIT[0]}   70  vi array.sh   71  chmod 755 array.sh   72  ./array.sh   73  vi array.sh   74  ./array.sh   75  vi forloop.sh   76  chmod 755 forloop.sh   77  ./forloop.sh   78  vi forloop.sh   79  ./forloop.sh   80  ./forloop.sh > for.report   81  ls   82  ls -l   83  cat for.report   84  vi forloop.sh   85  ./forloop.sh   86  cat for.report   87  ./forloop.sh > for.report   88  cat for.report   89  ./forloop.sh >> for.report   90  cat for.report   91  ./forloop.sh >>> for.report   92  ./forloop.sh >> for.report   93  cat for.report   94  history
-
-16/02/2022
-
-#!/bin/bashFILE_NAME=/root/scripts/test.txtDIR_NAME=/opt/abcif [ -f $FILE_NAME ]; then        echo "Given file exists"else        echo "Given file doesnot exists"fiif [ -d $DIR_NAME ]; then        echo "Given directory exists"else        echo "Given directory doesnot exists"fi
-
-#!/bin/bash #typically the first line of the bash scriptsBACKUPTIME=`date +%b-%d-%y` #get the current dateDESTINATION=/home/usr/path/backup-$BACKUPTIME.tar.gz #create a backup file using the current date in it's nameSOURCEFOLDER=/home/usr/path/data_folder #the folder that contains the files that we want to backuptar -cpzf $DESTINATION $SOURCEFOLDER #create the backup
-
-shell skript by vtc in youtube
-https://www.youtube.com/watch?v=JxZl3yi41fA
-
